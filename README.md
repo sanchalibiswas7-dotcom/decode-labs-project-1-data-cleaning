@@ -33,13 +33,20 @@ The dataset contains E-commerce order information including:
 * Order status
 * Pricing and quantity details
 
-## Key Insights
+## Key Observations and Insights
 
-* Missing values in the `CouponCode` column were handled successfully.
-* Duplicate records were checked and removed to improve data quality.
-* Text and date formatting were standardized for consistency.
-* TotalPrice values were validated using Quantity × UnitPrice calculations.
-* The cleaned dataset is now ready for further analysis and visualization.
+* The dataset contained 1,200 records and 14 columns related to E-commerce transactions.
+
+* A total of 133 missing values were identified in the CouponCode column and were successfully handled to improve data completeness.
+
+* Duplicate record analysis was performed across all 1,200 records, and no duplicate rows were found.
+
+* Date values were standardized into a consistent format across the dataset, improving data uniformity and reducing formatting inconsistencies.
+
+* Text fields such as Product, PaymentMethod, OrderStatus, and ReferralSource were cleaned and standardized to ensure consistency in categorical data.
+
+* TotalPrice values were validated against Quantity and UnitPrice calculations, and no significant discrepancies were detected during the validation process.
+
 
 ## Files Included
 
